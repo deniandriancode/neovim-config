@@ -31,4 +31,16 @@ return require('packer').startup(function(use)
   }
 
   use "folke/which-key.nvim"
+
+  use "mattn/emmet-vim"
+
+  use "nvim-treesitter/nvim-treesitter"
+
+  use "numToStr/Comment.nvim"
+
+  use "navarasu/onedark.nvim"
+
+  use'othree/html5.vim'
+  use 'pangloss/vim-javascript'
+  use "evanleck/vim-svelte"
 end)
